@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
+import WhatsAppButton from './WhatsAppButton';
+
 const Layout = ({ children }) => {
     return (
         <div className="min-h-screen flex flex-col">
@@ -10,6 +12,7 @@ const Layout = ({ children }) => {
                 {children}
             </main>
             <Footer />
+            <WhatsAppButton />
         </div>
     );
 };
