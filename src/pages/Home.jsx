@@ -74,7 +74,7 @@ const Home = () => {
             {/* Intro Section */}
             <Section>
                 <div className="text-center max-w-3xl mx-auto">
-                    <h2 className="text-sm font-bold text-accent uppercase tracking-widest mb-2">Welcome to Luxe Events</h2>
+                    <h2 className="text-sm font-bold text-accent uppercase tracking-widest mb-2">Welcome to Art Studio Prateek</h2>
                     <h3 className="text-4xl font-serif font-bold text-primary mb-6">Where Dreams Become Reality</h3>
                     <p className="text-gray-600 mb-8 leading-relaxed">
                         We are a premier luxury event planning agency dedicated to creating breathtaking experiences. From intimate gatherings to grand celebrations, we handle every detail with precision and flair.

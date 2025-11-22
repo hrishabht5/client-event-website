@@ -17,7 +17,7 @@ const About = () => {
                         <h2 className="text-sm font-bold text-accent uppercase tracking-widest mb-2">Who We Are</h2>
                         <h3 className="text-4xl font-serif font-bold text-primary mb-6">Passion for Perfection</h3>
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            Luxe Events was founded on the belief that every event should be a masterpiece. We are a team of passionate planners, designers, and coordinators who live to create unforgettable moments.
+                            Art Studio Prateek was founded on the belief that every event should be a masterpiece. We are a team of passionate planners, designers, and coordinators who live to create unforgettable moments.
                         </p>
                         <p className="text-gray-600 leading-relaxed">
                             Our philosophy is simple: we listen, we plan, and we execute with flawless precision. We take the stress out of event planning so you can focus on what matters most – celebrating with your loved ones.

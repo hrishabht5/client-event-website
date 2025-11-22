@@ -19,15 +19,15 @@ const Contact = () => {
                             <div className="space-y-4">
                                 <div className="flex items-start space-x-4">
                                     <MapPin className="text-accent mt-1" />
-                                    <p className="text-gray-600">123 Luxury Lane,<br />Beverly Hills, CA 90210</p>
+                                    <p className="text-gray-600">Vijay nagar indore M.P.</p>
                                 </div>
                                 <div className="flex items-center space-x-4">
                                     <Phone className="text-accent" />
-                                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                                    <p className="text-gray-600">8962727445</p>
                                 </div>
                                 <div className="flex items-center space-x-4">
                                     <Mail className="text-accent" />
-                                    <p className="text-gray-600">hello@luxeevents.com</p>
+                                    <p className="text-gray-600">artstudioprateek@gmail.com</p>
                                 </div>
                             </div>
                         </div>

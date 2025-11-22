@@ -30,7 +30,7 @@ const Navbar = () => {
         <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || !isHome ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <Link to="/" className={`text-2xl font-serif font-bold tracking-widest ${scrolled || !isHome ? 'text-primary' : 'text-white'}`}>
-                    LUXE EVENTS
+                    ART STUDIO PRATEEK
                 </Link>
 
                 {/* Desktop Menu */}
