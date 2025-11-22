@@ -1,9 +1,7 @@
 import React from 'react';
 
 const WhatsAppButton = () => {
-    const phoneNumber = "918962727445"; // Added 91 for India based on Indore location context
-    const message = encodeURIComponent("Hi, I saw your Art Studio Prateek website and would like to inquire about your services.");
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    const whatsappUrl = "https://wa.me/918962727445?text=Hi%2C%20I%20saw%20your%20Art%20Studio%20Prateek%20website%20and%20would%20like%20to%20inquire%20about%20your%20services.";
 
     return (
         <a
