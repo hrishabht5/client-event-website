@@ -17,15 +17,20 @@ const ContactForm = () => {
             [e.target.id]: e.target.value
         });
     };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('submitting');
 
         const formPayload = new FormData();
+        // Send keys matching the user's specific headers (some have trailing spaces)
         formPayload.append('Name', formData.name);
+        formPayload.append('Name ', formData.name); // Header has a trailing space
+
         formPayload.append('Email', formData.email);
+
         formPayload.append('Type', formData.type);
+        formPayload.append('Type ', formData.type); // Header has a trailing space
+
         formPayload.append('Message', formData.message);
         // Date is handled by the script
 
